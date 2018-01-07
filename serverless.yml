@@ -1,0 +1,12 @@
+service: skill-flip-a-coin
+
+provider:
+  name: aws
+  profile: laardee
+  runtime: nodejs6.10
+
+functions:
+  flip-a-coin:
+    handler: handlers/flip-a-coin/index.handler
+    events:
+      - alexaSkill

@@ -1,0 +1,15 @@
+{
+  "name": "flip-a-coin",
+  "version": "1.0.0",
+  "description": "Flip a Coin Alexa Skill",
+  "main": "handlers/flip-a-coin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jsonschema": "^1.2.2",
+    "random-js": "^1.0.8"
+  }
+}
